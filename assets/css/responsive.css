@@ -1,0 +1,89 @@
+/* PC */
+@media (min-width: 993px) {
+    .modal .modal-container {
+        width: 900px;
+    }
+}
+
+/* Tablet & Mobile Phone */
+@media (max-width: 992px) {
+    .btn {
+        padding: 10px 16px !important; 
+    }
+
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 992px) {
+    .modal .modal-container {
+        width: 600px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+    .modal .modal-container {
+        width: 500px;
+    }
+
+    .modal {
+        padding-top: 50px;
+    }
+}
+
+/* Mobile Phone */
+@media (max-width: 600px) {
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        width: 100%;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 4px 40px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    .hide-small {
+        display: none;
+    }
+
+    .s-col-full, .s-full-width {
+        width: 100%;
+    }
+
+    .s-margin-bottom-8 {
+        margin-bottom: 8px;
+    }
+
+    .modal .modal-container {
+        width: auto !important;
+        margin: 0 10px;
+    }
+}
