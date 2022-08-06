@@ -266,13 +266,14 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     margin-top: 46.5px;
     padding-top: 50%;
-    background:#ccc url('/assets/img/slider/chicago.jpg') top / cover no-repeat;
+    background:#ccc url('../img/slider/chicago.jpg') top / cover no-repeat;
 }
 
 #slider .text-content {
     position: absolute;
     bottom: 32px;
     color: #fff;
+    text-shadow: 0 0 1px #000;
 }
 
 /* Content */
