@@ -2,6 +2,13 @@ const buyBtns = document.querySelectorAll(".js-buy-btn");
 const modal = document.querySelector(".js-modal");
 const modalContainer = document.querySelector(".js-modal-container");
 const modalClose = document.querySelector(".js-modal-close");
+const header = document.getElementById("header");
+const mobileMenu = document.getElementById("mobile-menu");
+const menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+const slides = document.querySelectorAll("#slider .slider-inner .item");
+const sliderDots = document.querySelectorAll("#slider .slider-indicators .dot");
+const prevSlide = document.querySelector("#slider .prev-slide");
+const nextSlide = document.querySelector("#slider .next-slide");
 
 // Hàm hiển thị modal mua vé (thêm class open vào modal)
 function showBuyTickets() {
@@ -29,13 +36,10 @@ modalContainer.addEventListener("click", function (event) {
 });
 
 // Hiển thị Menu Bars
-var header = document.getElementById("header");
-var mobileMenu = document.getElementById("mobile-menu");
-var headerHeight = header.clientHeight;
-
+const headerHeight = header.clientHeight;
 // Đóng/mở mobile menu
 mobileMenu.onclick = function () {
-  var isClosed = header.clientHeight === headerHeight;
+  const isClosed = header.clientHeight === headerHeight;
   if (isClosed) {
     header.style.height = "auto";
   } else {
@@ -44,12 +48,10 @@ mobileMenu.onclick = function () {
 };
 
 // Tự động đóng khi chọn menu items
-var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
-for (var i = 0; i < menuItems.length; i++) {
-  var menuItem = menuItems[i];
-
+for (let i = 0; i < menuItems.length; i++) {
+  const menuItem = menuItems[i];
   menuItem.onclick = function (event) {
-    var isParentMenu =
+    const isParentMenu =
       this.nextElementSibling &&
       this.nextElementSibling.classList.contains("subnav");
     if (isParentMenu) {

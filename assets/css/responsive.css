@@ -1,89 +1,212 @@
 /* PC */
 @media (min-width: 993px) {
-    .modal .modal-container {
-        width: 900px;
-    }
+  .modal .modal-container {
+    width: 900px;
+  }
 }
 
 /* Tablet & Mobile Phone */
 @media (max-width: 992px) {
-    .btn {
-        padding: 10px 16px !important; 
-    }
+  .btn {
+    padding: 10px 16px !important;
+  }
 
-    #footer .copyright a {
-        padding: 12px 0;
-        display: inline-block;
-    }
+  #footer .copyright a {
+    padding: 12px 0;
+    display: inline-block;
+  }
 }
 
 /* Tablet */
 @media (min-width: 769px) and (max-width: 992px) {
-    .modal .modal-container {
-        width: 600px;
-    }
+  .modal .modal-container {
+    width: 600px;
+  }
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
-    .modal .modal-container {
-        width: 500px;
-    }
+  .modal .modal-container {
+    width: 500px;
+  }
 
-    .modal {
-        padding-top: 50px;
-    }
+  .modal {
+    padding-top: 50px;
+  }
+
+  #slider .slider-indicators {
+    bottom: 20px;
+  }
+
+  #slider .prev-slide,
+  #slider .next-slide {
+    font-size: 25px;
+  }
 }
 
 /* Mobile Phone */
 @media (max-width: 600px) {
-    #header {
-        overflow: hidden;
-    }
+  #header {
+    overflow: hidden;
+  }
 
-    #header .search-btn {
-        display: none;
-    }
+  #header .search-btn {
+    display: none;
+  }
 
-    #header .mobile-menu-btn {
-        display: block;
-    }
+  #header .mobile-menu-btn {
+    display: block;
+  }
 
-    #nav {
-        width: 100%;
-    }
+  #nav {
+    width: 100%;
+  }
 
-    #nav .subnav {
-        position: initial;
-        background-color: #333;
-    }
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
 
-    #nav .subnav a {
-        color: #fff;
-        padding: 4px 40px;
-    }
+  #nav .subnav a {
+    color: #fff;
+    padding: 4px 40px;
+  }
 
-    #nav > li {
-        display: block;
-    }
+  #nav > li {
+    display: block;
+  }
 
-    #nav > li:first-child {
-        display: inline-block;
-    }
+  #nav > li:first-child {
+    display: inline-block;
+  }
 
-    .hide-small {
-        display: none;
-    }
+  .hide-small {
+    display: none;
+  }
 
-    .s-col-full, .s-full-width {
-        width: 100%;
-    }
+  .s-col-full,
+  .s-full-width {
+    width: 100%;
+  }
 
-    .s-margin-bottom-8 {
-        margin-bottom: 8px;
-    }
+  .s-margin-bottom-8 {
+    margin-bottom: 8px;
+  }
 
-    .modal .modal-container {
-        width: auto !important;
-        margin: 0 10px;
-    }
+  .modal .modal-container {
+    width: auto !important;
+    margin: 0 10px;
+  }
+
+  #slider .slider-indicators {
+    bottom: 20px;
+  }
+
+  #slider .prev-slide,
+  #slider .next-slide {
+    font-size: 25px;
+  }
+}
+
+@media (hover: hover) {
+  .btn:hover {
+    background-color: #ccc !important;
+    color: #000 !important;
+  }
+
+  .hover-gray:hover {
+    opacity: 0.6;
+  }
+
+  #nav > li:hover > a,
+  #nav .subnav li:hover a {
+    color: #000;
+    background-color: #ccc;
+  }
+
+  #header .search-btn:hover {
+    background-color: #f44336;
+  }
+
+  #header .mobile-menu-btn:hover {
+    background-color: #ccc;
+  }
+
+  #header .mobile-menu-btn:hover .menu-icon {
+    color: #000;
+  }
+
+  #slider .prev-slide:hover,
+  #slider .next-slide:hover {
+    opacity: 0.9;
+  }
+
+  .place-img:hover {
+    opacity: 0.6;
+  }
+
+  .modal .modal-close:hover {
+    color: #000;
+    background-color: #ccc;
+  }
+
+  .modal #buy-tickets:hover {
+    color: #000;
+    background-color: #ccc;
+  }
+
+  #footer a:hover {
+    opacity: 0.6;
+  }
+}
+
+@media (hover: none) {
+  .btn:active {
+    background-color: #ccc !important;
+    color: #000 !important;
+  }
+
+  .hover-gray:active {
+    opacity: 0.6;
+  }
+
+  #nav > li:active > a,
+  #nav .subnav li:active a {
+    color: #000;
+    background-color: #ccc;
+  }
+
+  #header .search-btn:active {
+    background-color: #f44336;
+  }
+
+  #header .mobile-menu-btn:active {
+    background-color: #ccc;
+  }
+
+  #header .mobile-menu-btn:active .menu-icon {
+    color: #000;
+  }
+
+  #slider .prev-slide:active,
+  #slider .next-slide:active {
+    opacity: 0.9;
+  }
+
+  .place-img:active {
+    opacity: 0.6;
+  }
+
+  .modal .modal-close:active {
+    color: #000;
+    background-color: #ccc;
+  }
+
+  .modal #buy-tickets:active {
+    color: #000;
+    background-color: #ccc;
+  }
+
+  #footer a:active {
+    opacity: 0.6;
+  }
 }
