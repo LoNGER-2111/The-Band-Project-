@@ -48,7 +48,19 @@
       <!-- Slider -->
       <div id="slider" class="col-full">
         <!-- Wrapper for slides -->
-        <div class="slider-inner">
+        <div class="slider-container">
+          <!-- Clone of the last item -->
+          <div class="item" id="last-clone">
+            <img src="./assets/img/slider/la.jpg" alt="LA" class="slider-img" />
+            <div class="slider-caption hide-small text-center col-full">
+              <h3>LA</h3>
+              <p>
+                Even though the traffic was a mess, we had the best time playing
+                at Venice Beach!
+              </p>
+            </div>
+          </div>
+
           <div class="item">
             <img
               src="./assets/img/slider/chicago.jpg"
@@ -81,6 +93,19 @@
                 Even though the traffic was a mess, we had the best time playing
                 at Venice Beach!
               </p>
+            </div>
+          </div>
+
+          <!-- Clone of the first item -->
+          <div class="item" id="first-clone">
+            <img
+              src="./assets/img/slider/chicago.jpg"
+              alt="Chicago"
+              class="slider-img"
+            />
+            <div class="slider-caption hide-small text-center col-full">
+              <h3>Chicago</h3>
+              <p>Thank you, Chicago - A night we won't forget.</p>
             </div>
           </div>
         </div>
@@ -372,6 +397,6 @@
       </div>
     </div>
 
-    <script src="./assets/js/test.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>

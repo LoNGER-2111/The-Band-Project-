@@ -250,11 +250,19 @@ h6 {
 /* Slider */
 #slider {
   position: relative;
+  overflow: hidden;
+  width: 100%;
 }
 
-#slider .slider-inner .item {
-  display: none;
+#slider .slider-container {
+  display: flex;
+  width: 500%;
+  overflow: hidden;
+}
+
+#slider .slider-container .item {
   position: relative;
+  width: 100%;
 }
 
 #slider .item .slider-img {
