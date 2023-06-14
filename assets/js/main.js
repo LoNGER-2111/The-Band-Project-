@@ -268,5 +268,3 @@ const modal = new Modal();
 const mobileMenu = new MobileMenu();
 const subNav = new SubNav();
 const slider = new Slider();
-//comment
-//test is feature
